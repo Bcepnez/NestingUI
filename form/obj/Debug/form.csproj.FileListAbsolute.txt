@@ -1,0 +1,8 @@
+c:\users\benzrst\documents\visual studio 2015\Projects\form\form\bin\Debug\form.exe
+c:\users\benzrst\documents\visual studio 2015\Projects\form\form\bin\Debug\form.pdb
+c:\users\benzrst\documents\visual studio 2015\Projects\form\form\obj\Debug\form.csprojResolveAssemblyReference.cache
+c:\users\benzrst\documents\visual studio 2015\Projects\form\form\obj\Debug\form.Form1.resources
+c:\users\benzrst\documents\visual studio 2015\Projects\form\form\obj\Debug\form.Properties.Resources.resources
+c:\users\benzrst\documents\visual studio 2015\Projects\form\form\obj\Debug\form.csproj.GenerateResource.Cache
+c:\users\benzrst\documents\visual studio 2015\Projects\form\form\obj\Debug\form.exe
+c:\users\benzrst\documents\visual studio 2015\Projects\form\form\obj\Debug\form.pdb

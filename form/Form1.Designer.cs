@@ -71,6 +71,10 @@
             this.menuStrip3 = new System.Windows.Forms.MenuStrip();
             this.startToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.stopToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.printToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.printToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.restartToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.restartToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.menuStrip2.SuspendLayout();
             this.menuStrip3.SuspendLayout();
@@ -104,6 +108,7 @@
             this.saveAsToolStripMenuItem,
             this.closeToolStripMenuItem,
             this.closeAllFileToolStripMenuItem,
+            this.printToolStripMenuItem1,
             this.undoToolStripMenuItem,
             this.redoToolStripMenuItem,
             this.importToolStripMenuItem1,
@@ -201,7 +206,8 @@
             // 
             this.nestingToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.startToolStripMenuItem,
-            this.stopToolStripMenuItem});
+            this.stopToolStripMenuItem,
+            this.restartToolStripMenuItem});
             this.nestingToolStripMenuItem.Name = "nestingToolStripMenuItem";
             this.nestingToolStripMenuItem.Size = new System.Drawing.Size(72, 24);
             this.nestingToolStripMenuItem.Text = "Nesting";
@@ -254,7 +260,8 @@
             this.importToolStripMenuItem,
             this.exportToolStripMenuItem,
             this.undoToolStripMenuItem1,
-            this.redoToolStripMenuItem1});
+            this.redoToolStripMenuItem1,
+            this.printToolStripMenuItem});
             this.menuStrip2.Location = new System.Drawing.Point(0, 28);
             this.menuStrip2.Name = "menuStrip2";
             this.menuStrip2.Size = new System.Drawing.Size(1120, 28);
@@ -397,7 +404,8 @@
             this.menuStrip3.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip3.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.startToolStripMenuItem1,
-            this.stopToolStripMenuItem1});
+            this.stopToolStripMenuItem1,
+            this.restartToolStripMenuItem1});
             this.menuStrip3.Location = new System.Drawing.Point(0, 56);
             this.menuStrip3.Name = "menuStrip3";
             this.menuStrip3.Size = new System.Drawing.Size(1120, 28);
@@ -420,6 +428,34 @@
             this.stopToolStripMenuItem1.Size = new System.Drawing.Size(70, 24);
             this.stopToolStripMenuItem1.Text = "stop";
             this.stopToolStripMenuItem1.Click += new System.EventHandler(this.stopToolStripMenuItem1_Click);
+            // 
+            // printToolStripMenuItem
+            // 
+            this.printToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("printToolStripMenuItem.Image")));
+            this.printToolStripMenuItem.Name = "printToolStripMenuItem";
+            this.printToolStripMenuItem.Size = new System.Drawing.Size(32, 24);
+            // 
+            // printToolStripMenuItem1
+            // 
+            this.printToolStripMenuItem1.Image = ((System.Drawing.Image)(resources.GetObject("printToolStripMenuItem1.Image")));
+            this.printToolStripMenuItem1.Name = "printToolStripMenuItem1";
+            this.printToolStripMenuItem1.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.P)));
+            this.printToolStripMenuItem1.Size = new System.Drawing.Size(225, 26);
+            this.printToolStripMenuItem1.Text = "print";
+            // 
+            // restartToolStripMenuItem
+            // 
+            this.restartToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("restartToolStripMenuItem.Image")));
+            this.restartToolStripMenuItem.Name = "restartToolStripMenuItem";
+            this.restartToolStripMenuItem.Size = new System.Drawing.Size(181, 26);
+            this.restartToolStripMenuItem.Text = "Restart";
+            // 
+            // restartToolStripMenuItem1
+            // 
+            this.restartToolStripMenuItem1.Image = ((System.Drawing.Image)(resources.GetObject("restartToolStripMenuItem1.Image")));
+            this.restartToolStripMenuItem1.Name = "restartToolStripMenuItem1";
+            this.restartToolStripMenuItem1.Size = new System.Drawing.Size(83, 24);
+            this.restartToolStripMenuItem1.Text = "restart";
             // 
             // Form1
             // 
@@ -487,6 +523,10 @@
         private System.Windows.Forms.MenuStrip menuStrip3;
         private System.Windows.Forms.ToolStripMenuItem startToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem stopToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem printToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem printToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem restartToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem restartToolStripMenuItem1;
     }
 }
 
