@@ -61,10 +61,19 @@ namespace form
 
         }
 
-        private void treeView1_AfterSelect_1(object sender, TreeViewEventArgs e)
+        private void treeView1_AfterSelect_2(object sender, TreeViewEventArgs e)
         {
-            
+
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void propertyGrid1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
