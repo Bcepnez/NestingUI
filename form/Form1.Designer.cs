@@ -78,6 +78,10 @@
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.propertyGrid1 = new System.Windows.Forms.PropertyGrid();
+            this.pauseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.quickResultToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.optimizeRunToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.menuStrip3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
@@ -283,6 +287,9 @@
             // 
             this.nestingToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.startToolStripMenuItem,
+            this.quickResultToolStripMenuItem,
+            this.optimizeRunToolStripMenuItem,
+            this.pauseToolStripMenuItem,
             this.stopToolStripMenuItem,
             this.restartToolStripMenuItem});
             this.nestingToolStripMenuItem.Name = "nestingToolStripMenuItem";
@@ -294,7 +301,8 @@
             this.startToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("startToolStripMenuItem.Image")));
             this.startToolStripMenuItem.Name = "startToolStripMenuItem";
             this.startToolStripMenuItem.Size = new System.Drawing.Size(181, 26);
-            this.startToolStripMenuItem.Text = "Start";
+            this.startToolStripMenuItem.Text = "Quick Start";
+            this.startToolStripMenuItem.Click += new System.EventHandler(this.startToolStripMenuItem_Click);
             // 
             // stopToolStripMenuItem
             // 
@@ -351,6 +359,7 @@
             this.menuStrip3.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip3.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.startToolStripMenuItem1,
+            this.toolStripMenuItem1,
             this.stopToolStripMenuItem1,
             this.restartToolStripMenuItem1});
             this.menuStrip3.Location = new System.Drawing.Point(0, 55);
@@ -364,24 +373,24 @@
             // 
             this.startToolStripMenuItem1.Image = ((System.Drawing.Image)(resources.GetObject("startToolStripMenuItem1.Image")));
             this.startToolStripMenuItem1.Name = "startToolStripMenuItem1";
-            this.startToolStripMenuItem1.Size = new System.Drawing.Size(70, 24);
-            this.startToolStripMenuItem1.Text = "start";
+            this.startToolStripMenuItem1.Size = new System.Drawing.Size(126, 24);
+            this.startToolStripMenuItem1.Text = "Normal Start";
             this.startToolStripMenuItem1.Click += new System.EventHandler(this.startToolStripMenuItem1_Click);
             // 
             // stopToolStripMenuItem1
             // 
             this.stopToolStripMenuItem1.Image = ((System.Drawing.Image)(resources.GetObject("stopToolStripMenuItem1.Image")));
             this.stopToolStripMenuItem1.Name = "stopToolStripMenuItem1";
-            this.stopToolStripMenuItem1.Size = new System.Drawing.Size(70, 24);
-            this.stopToolStripMenuItem1.Text = "stop";
+            this.stopToolStripMenuItem1.Size = new System.Drawing.Size(72, 24);
+            this.stopToolStripMenuItem1.Text = "Stop";
             this.stopToolStripMenuItem1.Click += new System.EventHandler(this.stopToolStripMenuItem1_Click);
             // 
             // restartToolStripMenuItem1
             // 
             this.restartToolStripMenuItem1.Image = ((System.Drawing.Image)(resources.GetObject("restartToolStripMenuItem1.Image")));
             this.restartToolStripMenuItem1.Name = "restartToolStripMenuItem1";
-            this.restartToolStripMenuItem1.Size = new System.Drawing.Size(83, 24);
-            this.restartToolStripMenuItem1.Text = "restart";
+            this.restartToolStripMenuItem1.Size = new System.Drawing.Size(87, 24);
+            this.restartToolStripMenuItem1.Text = "Restart";
             // 
             // splitContainer1
             // 
@@ -536,6 +545,35 @@
             this.propertyGrid1.Name = "propertyGrid1";
             this.propertyGrid1.Size = new System.Drawing.Size(237, 429);
             this.propertyGrid1.TabIndex = 0;
+            this.propertyGrid1.Click += new System.EventHandler(this.propertyGrid1_Click_1);
+            // 
+            // pauseToolStripMenuItem
+            // 
+            this.pauseToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("pauseToolStripMenuItem.Image")));
+            this.pauseToolStripMenuItem.Name = "pauseToolStripMenuItem";
+            this.pauseToolStripMenuItem.Size = new System.Drawing.Size(181, 26);
+            this.pauseToolStripMenuItem.Text = "Pause";
+            // 
+            // quickResultToolStripMenuItem
+            // 
+            this.quickResultToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("quickResultToolStripMenuItem.Image")));
+            this.quickResultToolStripMenuItem.Name = "quickResultToolStripMenuItem";
+            this.quickResultToolStripMenuItem.Size = new System.Drawing.Size(181, 26);
+            this.quickResultToolStripMenuItem.Text = "Normal Start";
+            // 
+            // optimizeRunToolStripMenuItem
+            // 
+            this.optimizeRunToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("optimizeRunToolStripMenuItem.Image")));
+            this.optimizeRunToolStripMenuItem.Name = "optimizeRunToolStripMenuItem";
+            this.optimizeRunToolStripMenuItem.Size = new System.Drawing.Size(181, 26);
+            this.optimizeRunToolStripMenuItem.Text = "Optimize Run";
+            // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripMenuItem1.Image")));
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(79, 24);
+            this.toolStripMenuItem1.Text = "Pause";
             // 
             // Form1
             // 
@@ -618,6 +656,10 @@
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.PropertyGrid propertyGrid1;
+        private System.Windows.Forms.ToolStripMenuItem pauseToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem quickResultToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem optimizeRunToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
     }
 }
 
